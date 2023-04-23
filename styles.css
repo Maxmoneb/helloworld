@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat&display=swap');
+body{
+    margin: 0;
+    background-color: #151B8D;
+    scroll-behavior: smooth;
+
+}
+.main-col{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #151B8D;
+}
+#welcome{
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+}
+.text-col{
+    margin-top: 100px;
+    
+}
+.p-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    border-radius: 10px 10px 10px 10px;
+    font-family:Montserrat;
+    width: 200px;
+    height: auto;
+    background-color: #151B8D;
+    color: white;
+}
+.p-col-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn1{
+    cursor: pointer;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    font-family:Montserrat;
+}
+#waveimg{
+    width: 100%;
+}
+.main-col1{
+    margin-top: -30px;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 900px) {
+    .main-col1{
+        margin-top: -20px;
+        background-color: white;
+        width: 100%;
+        height: 100vh;
+    }
+   
+  }
